@@ -1,0 +1,19 @@
+{
+  "name": "order-automation",
+  "version": "1.0.0",
+  "main": "backend/index.js",
+  "scripts": {
+    "init-db": "node backend/utils/initDb.js",
+    "seed": "node backend/utils/seedMasters.js",
+    "start": "node backend/index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.x",
+    "cors": "^2.x",
+    "express": "^4.x",
+    "sqlite3": "^5.x",
+    "twilio": "^5.7.1",
+    "xml2js": "^0.x",
+    "xmlbuilder": "^15.1.1"
+  }
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin Panel – Orders</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; }
+    th, td { border: 1px solid #ccc; padding: 0.5rem; text-align: left; }
+    th { background: #f4f4f4; }
+    button { padding: 0.3rem 0.6rem; }
+  </style>
+</head>
+<body>
+  <h1>🗒️ Admin Panel – Orders</h1>
+  <table id="ordersTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Shop</th>
+        <th>Phone</th>
+        <th>Time</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- rows go here -->
+    </tbody>
+  </table>
+
+  <script>
+    async function loadOrders() {
+      const res = await fetch('http://localhost:3000/api/orders');
+      const orders = await res.json();
+
+      const tbody = document.querySelector('#ordersTable tbody');
+      tbody.innerHTML = ''; // clear
+
+      orders.forEach(o => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td>${o.id}</td>
+          <td>${o.customerName}</td>
+          <td>${o.phone}</td>
+          <td>${new Date(o.timestamp).toLocaleString()}</td>
+          <td>
+            <button data-id="${o.id}" class="viewBtn">View</button>
+            <button data-id="${o.id}" class="exportBtn">Export XML</button>
+          </td>
+        `;
+        tbody.appendChild(tr);
+      });
+
+      // Attach handlers
+      document.querySelectorAll('.viewBtn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const id = btn.dataset.id;
+          window.location.href = `order_detail.html?id=${id}`;
+        });
+      });
+      document.querySelectorAll('.exportBtn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const id = btn.dataset.id;
+          // trigger download
+          window.location.href = `http://localhost:3000/api/orders/${id}/export`;
+        });
+      });
+    }
+
+    // Load on page load
+    loadOrders();
+  </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Place Order</title>
+</head>
+<body>
+  <h2>🛒 Place Your Order</h2>
+
+  <form id="orderForm">
+    <label>Phone:
+      <input type="text" id="phone" required>
+    </label>
+
+    <label>Item:
+      <select id="itemSelect"></select>
+    </label>
+
+    <label>Quantity:
+      <input type="number" id="quantity" value="1" min="1">
+    </label>
+
+    <button type="submit">Submit Order</button>
+  </form>
+
+  <script>
+    // Fetch items for dropdown
+    fetch('http://localhost:3000/api/items')
+      .then(res => res.json())
+      .then(items => {
+        const itemSelect = document.getElementById('itemSelect');
+        items.forEach(item => {
+          const opt = document.createElement('option');
+          opt.value = item.id;
+          opt.text = `${item.name} — ₹${item.rate}`;
+          itemSelect.appendChild(opt);
+        });
+      });
+
+    // Submit order
+    document.getElementById('orderForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const phone = document.getElementById('phone').value.trim();
+      const itemId = parseInt(document.getElementById('itemSelect').value);
+      const quantity = parseInt(document.getElementById('quantity').value);
+
+      const res = await fetch('http://localhost:3000/api/orders', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          phone,
+          items: [{ itemId, quantity }]
+        })
+      });
+
+      const result = await res.json();
+      alert(result.success ? '✅ Order placed!' : `❌ Error: ${result.error || 'Unknown'}`);
+    });
+  </script>
+</body>
+</html>
