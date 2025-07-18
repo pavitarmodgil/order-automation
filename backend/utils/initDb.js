@@ -29,6 +29,7 @@ db.serialize(() => {
       customer_id INTEGER,
       timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
       notes TEXT,
+      total REAL DEFAULT 0,
       FOREIGN KEY(customer_id) REFERENCES Customers(id)
     )
   `);
@@ -40,6 +41,7 @@ db.serialize(() => {
       order_id INTEGER,
       item_id INTEGER,
       quantity INTEGER,
+      rate REAL,
       FOREIGN KEY(order_id) REFERENCES Orders(id),
       FOREIGN KEY(item_id) REFERENCES Items(id)
     )

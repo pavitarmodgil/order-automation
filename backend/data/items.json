@@ -1,1526 +1,1086 @@
-[
-  {
-    "NAME": "2in1 (Van/str) 2 Lit",
-    "RATE": 206.79,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Afghan Dry Fruit Combo 750ml",
-    "RATE": 224.52,
-    "UNIT": "st",
-    "GST": 9
-  },
-  {
-    "NAME": "Almando250 Gms",
-    "RATE": 0,
-    "UNIT": "bx",
-    "GST": 0
-  },
-  {
-    "NAME": "Al. Mango Combo 750ml",
-    "RATE": 175.47,
-    "UNIT": "st",
-    "GST": 9
-  },
-  {
-    "NAME": "American Nuts 750ml",
-    "RATE": 112.48,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Amul Besan Ladoo8x500gm",
-    "RATE": 1640.57,
-    "UNIT": "cs",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Amul Butter 100gms",
-    "RATE": 46.68,
-    "UNIT": "pcs",
-    "GST": 6
-  },
-  {
-    "NAME": "Amul Butter 10gm",
-    "RATE": 477.51,
-    "UNIT": "bx",
-    "GST": 6
-  },
-  {
-    "NAME": "Amul Butter 150x100gms",
-    "RATE": 6942.19,
-    "UNIT": "cs",
-    "GST": 6
-  },
-  {
-    "NAME": "Amul Butter 40x500gms IP",
-    "RATE": 225.69,
-    "UNIT": "pcs",
-    "GST": 6
-  },
-  {
-    "NAME": "Amul Butter 500gm",
-    "RATE": 457.83,
-    "UNIT": "kg",
-    "GST": 6
-  },
-  {
-    "NAME": "Amul Buttermilk 1ltr",
-    "RATE": 712.48,
-    "UNIT": "cs",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Amul Butter School Pack60x10x10gm",
-    "RATE": 3151.68,
-    "UNIT": "cs",
-    "GST": 6
-  },
-  {
-    "NAME": "Amul Dark Chocolate 10x150gm",
-    "RATE": 1119.94,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Amul Diced Cheeseblend 200gm",
-    "RATE": 93.55,
-    "UNIT": "pkt",
-    "GST": 12
-  },
-  {
-    "NAME": "Amul Diced Cheese Blend 50x200 Gm",
-    "RATE": 93.55,
-    "UNIT": "pkt",
-    "GST": 6
-  },
-  {
-    "NAME": "Amul Diced Mozorella Cheese 1kg",
-    "RATE": 445.71,
-    "UNIT": "pkt",
-    "GST": 12
-  },
-  {
-    "NAME": "Amul Ghee 500ml Tin",
-    "RATE": 6313.82,
-    "UNIT": "cs",
-    "GST": 6
-  },
-  {
-    "NAME": "Amul Ghee Tin 12x1ltr",
-    "RATE": 6123.75,
-    "UNIT": "cs",
-    "GST": 6
-  },
-  {
-    "NAME": "Amul Gold Milk 1ltr",
-    "RATE": 830.63,
-    "UNIT": "cs",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Amul Gulabjamun 1kg Pack",
-    "RATE": 189.88,
-    "UNIT": "pcs",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Amul Kool Badam180ml",
-    "RATE": 551.27,
-    "UNIT": "crt",
-    "GST": 0
-  },
-  {
-    "NAME": "Amul Kool Cafe Can 200ml",
-    "RATE": 792.38,
-    "UNIT": "cs",
-    "GST": 12
-  },
-  {
-    "NAME": "Amul Kool Can Hazelnut200ml Can",
-    "RATE": 679.18,
-    "UNIT": "cs",
-    "GST": 6
-  },
-  {
-    "NAME": "Amul Kool Elaichi 180ml",
-    "RATE": 558.98,
-    "UNIT": "crt",
-    "GST": 0
-  },
-  {
-    "NAME": "Amul Kool Kesar 180ml",
-    "RATE": 540.36,
-    "UNIT": "crt",
-    "GST": 6
-  },
-  {
-    "NAME": "Amul Kool Koko Can200ml",
-    "RATE": 0,
-    "UNIT": "cs",
-    "GST": 6
-  },
-  {
-    "NAME": "Amul Kool Premium 180ml",
-    "RATE": 19.04,
-    "UNIT": "pcs",
-    "GST": 6
-  },
-  {
-    "NAME": "Amul Lassi 1ltr",
-    "RATE": 903.09,
-    "UNIT": "cs",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Amul Lassi250ml",
-    "RATE": 653.71,
-    "UNIT": "cs",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Amul Malai Paneer Dice 50x200 Gm",
-    "RATE": 81.06,
-    "UNIT": "pkt",
-    "GST": 0
-  },
-  {
-    "NAME": "Amul Milk Chocolate 40gm",
-    "RATE": 0,
-    "UNIT": "bx",
-    "GST": 6
-  },
-  {
-    "NAME": "Amul MOTI 125ML",
-    "RATE": 661.61,
-    "UNIT": "cs",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Amul Moti 450ml",
-    "RATE": 648.95,
-    "UNIT": "cs",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Amul Pro 32x250ml",
-    "RATE": 0,
-    "UNIT": "pcs",
-    "GST": 6
-  },
-  {
-    "NAME": "Amul Spray 500 Gms Tin",
-    "RATE": 208.16,
-    "UNIT": "pcs",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Amulspray Rtf32x250ml TB",
-    "RATE": 653.71,
-    "UNIT": "cs",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Amul Sugarfree Dark Chocolate35 Gms",
-    "RATE": 9618.22,
-    "UNIT": "cs",
-    "GST": 9
-  },
-  {
-    "NAME": "Amul Taaza",
-    "RATE": 768.33,
-    "UNIT": "cs",
-    "GST": 5
-  },
-  {
-    "NAME": "Amul Taaza 1ltr",
-    "RATE": 768.33,
-    "UNIT": "cs",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Amul Tru Mango 1ltr",
-    "RATE": 0,
-    "UNIT": "pcs",
-    "GST": 6
-  },
-  {
-    "NAME": "Amul  T Special 30x400gm",
-    "RATE": 4496.3,
-    "UNIT": "crt",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Amul Velvet Milk Chocolate40x150gm",
-    "RATE": 140.79,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Asli Aam 80ml",
-    "RATE": 280.56,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Asli Aam Gold",
-    "RATE": 365.47,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Asli Aam Gold 80ml",
-    "RATE": 281.19,
-    "UNIT": "bx",
-    "GST": 18
-  },
-  {
-    "NAME": "Asli Aam Ras Kulfi",
-    "RATE": 280.68,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Avsar Kaju Katri 50x200gms",
-    "RATE": 174.43,
-    "UNIT": "bx",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Bindaaz Buffer Chocolate Jar",
-    "RATE": 250.48,
-    "UNIT": "jar",
-    "GST": 9
-  },
-  {
-    "NAME": "Black Currant Combo 750ml",
-    "RATE": 0,
-    "UNIT": "st",
-    "GST": 9
-  },
-  {
-    "NAME": "Black Current 750ml",
-    "RATE": 105.42,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Bscotch Gold 750ml",
-    "RATE": 91.56,
-    "UNIT": "pcs",
-    "GST": 0
-  },
-  {
-    "NAME": "Butter Cookies 30x200gms",
-    "RATE": 0,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Butterscotch 100ml Cup",
-    "RATE": 223.57,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Butterscotch 1.25 Lit.",
-    "RATE": 147.56,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Butterscotch 2ltr",
-    "RATE": 157.37,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Butterscotch Combo 750ml",
-    "RATE": 189.53,
-    "UNIT": "st",
-    "GST": 9
-  },
-  {
-    "NAME": "Butterscotch Gold 750ml",
-    "RATE": 91.56,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Catering Vanilla 4Lit.",
-    "RATE": 329.41,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Cheese Slice5x20gms",
-    "RATE": 67.38,
-    "UNIT": "pcs",
-    "GST": 6
-  },
-  {
-    "NAME": "Cheese Slices 30x400gms",
-    "RATE": 6539.3,
-    "UNIT": "cs",
-    "GST": 0
-  },
-  {
-    "NAME": "Cheese Slices 60x10x20gm",
-    "RATE": 114.93,
-    "UNIT": "pkt",
-    "GST": 0
-  },
-  {
-    "NAME": "Cheese Spread Plain 200gms",
-    "RATE": 87.19,
-    "UNIT": "pcs",
-    "GST": 6
-  },
-  {
-    "NAME": "Chocobar Gold",
-    "RATE": 262.06,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Choco Chips Combo 750ml",
-    "RATE": 203.51,
-    "UNIT": "st",
-    "GST": 9
-  },
-  {
-    "NAME": "Chocolate Combo 750ml",
-    "RATE": 182.36,
-    "UNIT": "st",
-    "GST": 9
-  },
-  {
-    "NAME": "Chocolate Cookies 30x200gms",
-    "RATE": 0,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Chocominis",
-    "RATE": 105.93,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Coffee Bar",
-    "RATE": 280.58,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Combo Kesar Pista 750ml",
-    "RATE": 0,
-    "UNIT": "st",
-    "GST": 9
-  },
-  {
-    "NAME": "Cookie Cream 750 Ml",
-    "RATE": 94.71,
-    "UNIT": "pcs",
-    "GST": 0
-  },
-  {
-    "NAME": "Cow Ghee 1ltr",
-    "RATE": 522.19,
-    "UNIT": "pcs",
-    "GST": 6
-  },
-  {
-    "NAME": "Cup Sundae Cheese N Straberry 125ml",
-    "RATE": 201.33,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Dark Chocobar 60ml",
-    "RATE": 280.69,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Dark Chocolate 125gm",
-    "RATE": 1135.49,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Dark Compound Slab(20x500gms)",
-    "RATE": 96.89,
-    "UNIT": "pcs",
-    "GST": 0
-  },
-  {
-    "NAME": "Dark Frostik",
-    "RATE": 503.32,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Delicious 100gm",
-    "RATE": 134.5,
-    "UNIT": "kg",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Delicious 500gms",
-    "RATE": 62.45,
-    "UNIT": "pcs",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Delicious5x100gm",
-    "RATE": 129.2,
-    "UNIT": "kg",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Diced Cheese Blend12x1kg",
-    "RATE": 479.63,
-    "UNIT": "pkt",
-    "GST": 6
-  },
-  {
-    "NAME": "Elaichi Rusk 24x200gm",
-    "RATE": 654.4,
-    "UNIT": "cs",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Epic Choco Almond80ml",
-    "RATE": 478.37,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Fresh Cream 1ltr",
-    "RATE": 196.9,
-    "UNIT": "pcs",
-    "GST": 0
-  },
-  {
-    "NAME": "Fresh Cream 250ml",
-    "RATE": 60.86,
-    "UNIT": "pcs",
-    "GST": 0
-  },
-  {
-    "NAME": "Frostic Gold 70ml",
-    "RATE": 553.54,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Frozen Rasmalai Pista 24x500gm",
-    "RATE": 167.92,
-    "UNIT": "pcs",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Fruit N Nut 18x20x40gm",
-    "RATE": 0,
-    "UNIT": "bx",
-    "GST": 0
-  },
-  {
-    "NAME": "Fruit N Nut 2Lit.",
-    "RATE": 238.47,
-    "UNIT": "pcs",
-    "GST": 0
-  },
-  {
-    "NAME": "Fundoo Mango Dolley 45ml",
-    "RATE": 144.48,
-    "UNIT": "bx",
-    "GST": 0
-  },
-  {
-    "NAME": "Fundoo Super",
-    "RATE": 169.6,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Garlic Buttery Spread100gm",
-    "RATE": 0,
-    "UNIT": "kg",
-    "GST": 6
-  },
-  {
-    "NAME": "Ghee 1ltr Pet Jar",
-    "RATE": 510.31,
-    "UNIT": "jar",
-    "GST": 0
-  },
-  {
-    "NAME": "Ghee Tin 1ltr",
-    "RATE": 533.04,
-    "UNIT": "pcs",
-    "GST": 6
-  },
-  {
-    "NAME": "Ghee Tin 500ml",
-    "RATE": 263.08,
-    "UNIT": "pcs",
-    "GST": 6
-  },
-  {
-    "NAME": "Gold Chocobar",
-    "RATE": 371.4,
-    "UNIT": "bx",
-    "GST": 18
-  },
-  {
-    "NAME": "Gold FnF Jumbo Cup 125ml",
-    "RATE": 241.86,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Gold Jumbo Cup Bscotch125ml",
-    "RATE": 197.61,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Green Pista 5ltr",
-    "RATE": 0,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Green Pista Brick 750ml",
-    "RATE": 87.74,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Happy Treat French Fries 2.5 Kg Pack",
-    "RATE": 253.71,
-    "UNIT": "pkt",
-    "GST": 6
-  },
-  {
-    "NAME": "Jumbo Choco-Brownie",
-    "RATE": 223.4,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Jumbo Chocochip Gold",
-    "RATE": 245.1,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Jumbo Cup Alphanso Mango",
-    "RATE": 0,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Jumbo Cup American Nut125ml",
-    "RATE": 176.16,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Jumbo Cup Butterscotch Bliss 125ml",
-    "RATE": 196.54,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Jumbo Cup Coffee 125ml",
-    "RATE": 224.63,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Jumbo Cup Falooda 125ml",
-    "RATE": 224.6,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Jumbo Cup Fruit N Nut",
-    "RATE": 196.52,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Jumbo Cup Golden Pearl125 Ml",
-    "RATE": 196.27,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Jumbo Cup King Alphonso 125ml",
-    "RATE": 0,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Jumbo Cup Pan Nawabi 125ml",
-    "RATE": 196.44,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Jumbo Cup Scoop125ml",
-    "RATE": 224.8,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Jumbo Cup Shahi Kulfi 125ml",
-    "RATE": 224.1,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Jumbo Cup Shalimar125ml",
-    "RATE": 196.6,
-    "UNIT": "bx",
-    "GST": 0
-  },
-  {
-    "NAME": "Jumbo Sky Scoop 125ml",
-    "RATE": 0,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Jumbo SKYSCOP Cookies 125ml",
-    "RATE": 201.33,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Kaju Draksh 750ml",
-    "RATE": 112.56,
-    "UNIT": "pcs",
-    "GST": 0
-  },
-  {
-    "NAME": "Kaju Draksh Combo 750ml",
-    "RATE": 0,
-    "UNIT": "st",
-    "GST": 9
-  },
-  {
-    "NAME": "Kaju Katri 20x500gms",
-    "RATE": 387.43,
-    "UNIT": "bx",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Kaju Rabdi Kulfi 750ml",
-    "RATE": 129.71,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Kashmiri Kulfi",
-    "RATE": 280.65,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Kesariya Lassi 30x200ml",
-    "RATE": 17.98,
-    "UNIT": "pcs",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Kesar Kaju Katri 50x200gms",
-    "RATE": 185.64,
-    "UNIT": "bx",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Kesar Peda 10x200gms",
-    "RATE": 94.99,
-    "UNIT": "pcs",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Kesar Pista 750ml",
-    "RATE": 136.71,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Keyboard Usb",
-    "RATE": 338.98,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Khatta Meetha Sun.Swirl Mango",
-    "RATE": 358.87,
-    "UNIT": "bx",
-    "GST": 0
-  },
-  {
-    "NAME": "Kool Cafe",
-    "RATE": 0,
-    "UNIT": "cs",
-    "GST": 6
-  },
-  {
-    "NAME": "Kool Kesar Badam",
-    "RATE": 0,
-    "UNIT": "cs",
-    "GST": 6
-  },
-  {
-    "NAME": "Kool Kesar Badam180ml",
-    "RATE": 0,
-    "UNIT": "crt",
-    "GST": 6
-  },
-  {
-    "NAME": "Kulfi Punjabi Gold6x4x60ml",
-    "RATE": 418.58,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Kulfi Rajasthani Kulfi",
-    "RATE": 279.95,
-    "UNIT": "bx",
-    "GST": 0
-  },
-  {
-    "NAME": "Kulfi Shahi Badam",
-    "RATE": 314.58,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Lassi 200ml",
-    "RATE": 490.29,
-    "UNIT": "crt",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Lassi 32x250mltb",
-    "RATE": 653.71,
-    "UNIT": "cs",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Malai Peda 10x200gms",
-    "RATE": 91.14,
-    "UNIT": "pcs",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Mango Duet Gold",
-    "RATE": 247.92,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Mango Duets Gold",
-    "RATE": 247.09,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Mango Froot Stic",
-    "RATE": 134.65,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Med Fat 4ltr B/scotch",
-    "RATE": 381.36,
-    "UNIT": "pcs",
-    "GST": 18
-  },
-  {
-    "NAME": "Med Fat Afgan Dry Froot 4ltr",
-    "RATE": 359.05,
-    "UNIT": "pcs",
-    "GST": 18
-  },
-  {
-    "NAME": "Med.Fat Straberry 4ltr",
-    "RATE": 300.85,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Med Fat Vanila 4ltr",
-    "RATE": 286.86,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Med Fat Vanila Cup",
-    "RATE": 188.36,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Medium Fat Butterscotch 4ltr",
-    "RATE": 376.27,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Micro Stablizer 4kva",
-    "RATE": 4661.02,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Milk Cake 10x200gms",
-    "RATE": 94.94,
-    "UNIT": "pcs",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Milk Shake200ml Can",
-    "RATE": 905.57,
-    "UNIT": "cs",
-    "GST": 6
-  },
-  {
-    "NAME": "Moroccan Dry Fruit 1L",
-    "RATE": 210.6,
-    "UNIT": "tb",
-    "GST": 0
-  },
-  {
-    "NAME": "Mouse Wired",
-    "RATE": 211.86,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Mozorella Cheese 1kg",
-    "RATE": 430.13,
-    "UNIT": "pkt",
-    "GST": 6
-  },
-  {
-    "NAME": "Mozorella Diced 200gm",
-    "RATE": 99.82,
-    "UNIT": "pkt",
-    "GST": 6
-  },
-  {
-    "NAME": "Novelties Cassatta 150ml",
-    "RATE": 336.5,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Organic Whole Wheat Atta 1kg",
-    "RATE": 91.63,
-    "UNIT": "pkt",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Organic Whole Wheat Atta 4x5kg",
-    "RATE": 225.56,
-    "UNIT": "pkt",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Paan Nawabi 5ltr",
-    "RATE": 519.05,
-    "UNIT": "pcs",
-    "GST": 18
-  },
-  {
-    "NAME": "Peanut Spread Creamy12x900gm",
-    "RATE": 2668.71,
-    "UNIT": "cs",
-    "GST": 6
-  },
-  {
-    "NAME": "Processed Cheese Tin 400gms",
-    "RATE": 194.2,
-    "UNIT": "pcs",
-    "GST": 6
-  },
-  {
-    "NAME": "Rabdi Kulfi Rural 45ml",
-    "RATE": 150.68,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Rajbhog 5ltr",
-    "RATE": 717.29,
-    "UNIT": "pcs",
-    "GST": 18
-  },
-  {
-    "NAME": "Rajbhog Combo 750ml",
-    "RATE": 266.51,
-    "UNIT": "st",
-    "GST": 9
-  },
-  {
-    "NAME": "Rajbhog Kulfi",
-    "RATE": 420.52,
-    "UNIT": "bx",
-    "GST": 0
-  },
-  {
-    "NAME": "Rajwadi Kulfi 40ml",
-    "RATE": 150.92,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Rasmalai 8x200gm",
-    "RATE": 257.66,
-    "UNIT": "bx",
-    "GST": 0
-  },
-  {
-    "NAME": "Safed Makhan 100gm",
-    "RATE": 0,
-    "UNIT": "kg",
-    "GST": 6
-  },
-  {
-    "NAME": "Sandwich Vanilla 80ml",
-    "RATE": 210.56,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "School Pack Butter 10gms",
-    "RATE": 54.88,
-    "UNIT": "pkt",
-    "GST": 6
-  },
-  {
-    "NAME": "Shahi Anjir 750ml",
-    "RATE": 112.8,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Shalimar750ml",
-    "RATE": 112.43,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "S S C B750 ML",
-    "RATE": 122.7,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Stic Punjabi Kulfi Gold",
-    "RATE": 371.56,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "STK Bombay Dryfruit Kulfi",
-    "RATE": 350.26,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "STK Frostik 70ml",
-    "RATE": 491.14,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "STK Mawa Malai Koolfi",
-    "RATE": 350.24,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "STK Orange/Mango/Cola/pineapple Candy 50ml",
-    "RATE": 75.38,
-    "UNIT": "bx",
-    "GST": 0
-  },
-  {
-    "NAME": "STK Pista Malai Koolfi 60ml",
-    "RATE": 420.52,
-    "UNIT": "bx",
-    "GST": 0
-  },
-  {
-    "NAME": "STK Prolife Chocobar 40ml",
-    "RATE": 156.75,
-    "UNIT": "bx",
-    "GST": 0
-  },
-  {
-    "NAME": "STK Prolife Chocobar 60ml",
-    "RATE": 280.47,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "STK Punjabi Kulfi Mawa El 60ml",
-    "RATE": 350.51,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "STK Raspberry Duetz 60ml",
-    "RATE": 188.75,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Strawberry 1.25 Lit.",
-    "RATE": 116.39,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Strawberry Combo 750ml",
-    "RATE": 168.29,
-    "UNIT": "st",
-    "GST": 9
-  },
-  {
-    "NAME": "Sugar Free Dark Chocolate",
-    "RATE": 333.97,
-    "UNIT": "bx",
-    "GST": 0
-  },
-  {
-    "NAME": "Sugar Free Dark Chocolate 40x150gms",
-    "RATE": 127.99,
-    "UNIT": "pcs",
-    "GST": 0
-  },
-  {
-    "NAME": "Sugarfree Kesar Badam 125ml",
-    "RATE": 278.37,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Sugarfree Punjabi Kulfi",
-    "RATE": 350.5,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Sugar Free Shahi Anjir",
-    "RATE": 278.71,
-    "UNIT": "bx",
-    "GST": 0
-  },
-  {
-    "NAME": "Sugarfree Vanila Cup 125ml",
-    "RATE": 238.11,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Sundae Chocolate 125ml",
-    "RATE": 196.53,
-    "UNIT": "bx",
-    "GST": 0
-  },
-  {
-    "NAME": "Sundae Gudbud 125ml",
-    "RATE": 247.76,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Sundae Mango 125ml",
-    "RATE": 196.59,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Tb Asli Aam Sorbet 1ltr",
-    "RATE": 110.1,
-    "UNIT": "tb",
-    "GST": 9
-  },
-  {
-    "NAME": "Tb Choco Crackle 1ltr",
-    "RATE": 157.29,
-    "UNIT": "tb",
-    "GST": 9
-  },
-  {
-    "NAME": "Tb Tuti Fruity Gold 1ltr.",
-    "RATE": 159.38,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Tricone 2in1 120ml",
-    "RATE": 490.7,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Tricone Bel. Chocolate120 Ml",
-    "RATE": 629.15,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Tricone Belgian Choco 120ml",
-    "RATE": 701.24,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Tricone Black Currant",
-    "RATE": 420.5,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Tricone Black Current 120ml",
-    "RATE": 420.53,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Tricone B/s Gold 120ml",
-    "RATE": 493.57,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Tricone Bsotch Milelletello 100ml",
-    "RATE": 251.66,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Tricone Butterscotch 100ml",
-    "RATE": 420.62,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Tricone Butterscotch120ml",
-    "RATE": 490.34,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Tricone Chocobrownie 150ml",
-    "RATE": 386.12,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Tricone Chocolate 100ml",
-    "RATE": 420.53,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Tricone Chocolate 120ml",
-    "RATE": 490.71,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Tricone Chocovanila 70ml",
-    "RATE": 280.57,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Tricone Dark Chocolate120ml",
-    "RATE": 630.9,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Tricone Gold Ch.120ml",
-    "RATE": 615.05,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Tricone Kesar Pista 120ml",
-    "RATE": 560.6,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Tricone Kulfi 70ml",
-    "RATE": 280.52,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Tricone Mango 70ml",
-    "RATE": 280.36,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Tricone Vanilla 120ml",
-    "RATE": 420.53,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Tricone Vanilla 40ml",
-    "RATE": 150.16,
-    "UNIT": "bx",
-    "GST": 0
-  },
-  {
-    "NAME": "Tru Apple Seltzer 24x250ml",
-    "RATE": 6.5,
-    "UNIT": "pcs",
-    "GST": 14
-  },
-  {
-    "NAME": "Tru Litchi 30x150ml Tp",
-    "RATE": 209.86,
-    "UNIT": "cs",
-    "GST": 6
-  },
-  {
-    "NAME": "Tru Mango30x150ml Tp",
-    "RATE": 198.48,
-    "UNIT": "crt",
-    "GST": 6
-  },
-  {
-    "NAME": "Tru Orange 30x150ml Tp",
-    "RATE": 206.01,
-    "UNIT": "crt",
-    "GST": 6
-  },
-  {
-    "NAME": "T-Special 12x1 Kg",
-    "RATE": 332.45,
-    "UNIT": "pkt",
-    "GST": 2.5
-  },
-  {
-    "NAME": "T-Spl 30x400gm Pouch",
-    "RATE": 4377.5,
-    "UNIT": "crt",
-    "GST": 2.5
-  },
-  {
-    "NAME": "Tub Butterscotch Bliss 1 Ltr",
-    "RATE": 150.72,
-    "UNIT": "tb",
-    "GST": 9
-  },
-  {
-    "NAME": "Tub Butterscotch Gold 1L",
-    "RATE": 159.36,
-    "UNIT": "tb",
-    "GST": 0
-  },
-  {
-    "NAME": "Tub Caramel Gold1ltr",
-    "RATE": 168.9,
-    "UNIT": "tb",
-    "GST": 9
-  },
-  {
-    "NAME": "Tub Choco Brownie 1ltr",
-    "RATE": 161.43,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Tub Choco Chips 1L",
-    "RATE": 161.63,
-    "UNIT": "tb",
-    "GST": 9
-  },
-  {
-    "NAME": "Tub Chocolate Brownie 1L",
-    "RATE": 161.83,
-    "UNIT": "tb",
-    "GST": 9
-  },
-  {
-    "NAME": "Tub Chocolate Crackle 1ltr",
-    "RATE": 174.75,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Tub Cookies N Cream Gold 1L",
-    "RATE": 159.39,
-    "UNIT": "tb",
-    "GST": 9
-  },
-  {
-    "NAME": "Tub Fruit N Nut Fantasy 1ltr",
-    "RATE": 161.57,
-    "UNIT": "tb",
-    "GST": 9
-  },
-  {
-    "NAME": "Tub King Alphonso Gold 1L",
-    "RATE": 159.5,
-    "UNIT": "tb",
-    "GST": 9
-  },
-  {
-    "NAME": "Tub Pan Nawabi 1L",
-    "RATE": 150.71,
-    "UNIT": "tb",
-    "GST": 9
-  },
-  {
-    "NAME": "Tub Rajbhog 1ltr",
-    "RATE": 210.59,
-    "UNIT": "tb",
-    "GST": 9
-  },
-  {
-    "NAME": "Tub Roasted Almond 1ltr",
-    "RATE": 210.6,
-    "UNIT": "tb",
-    "GST": 9
-  },
-  {
-    "NAME": "Tub Shahi Kulfi 1ltr",
-    "RATE": 210.57,
-    "UNIT": "tb",
-    "GST": 9
-  },
-  {
-    "NAME": "Tub Su Caramel Chocolate Gold 1l",
-    "RATE": 159.44,
-    "UNIT": "tb",
-    "GST": 9
-  },
-  {
-    "NAME": "Tub SU Chocolate Magic 1ltr",
-    "RATE": 150.72,
-    "UNIT": "tb",
-    "GST": 9
-  },
-  {
-    "NAME": "Tub Sundae Kesar Badam 1ltr",
-    "RATE": 161.77,
-    "UNIT": "tb",
-    "GST": 9
-  },
-  {
-    "NAME": "Tub Sunday Faluda 1ltr",
-    "RATE": 210.52,
-    "UNIT": "tb",
-    "GST": 9
-  },
-  {
-    "NAME": "Tub Su Strawberry Magic 1ltr",
-    "RATE": 150.71,
-    "UNIT": "tb",
-    "GST": 9
-  },
-  {
-    "NAME": "Tub Tender Coconut 1ltr",
-    "RATE": 192.56,
-    "UNIT": "bx",
-    "GST": 0
-  },
-  {
-    "NAME": "Tub Vanilla Gold 1ltr",
-    "RATE": 142.57,
-    "UNIT": "tb",
-    "GST": 0
-  },
-  {
-    "NAME": "Tub Vanilla Magic 1ltr",
-    "RATE": 136.7,
-    "UNIT": "tb",
-    "GST": 9
-  },
-  {
-    "NAME": "Tutifruity 750ml",
-    "RATE": 91.3,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Tutifryity 5ltr Pack",
-    "RATE": 0,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Vanila Cup 100ml",
-    "RATE": 168.3,
-    "UNIT": "bx",
-    "GST": 18
-  },
-  {
-    "NAME": "Vanila Gold 750ml",
-    "RATE": 98.96,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Vanilla 1.25 Lit.",
-    "RATE": 129.7,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Vanilla  Brick 1ltr",
-    "RATE": 87.53,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Vanilla Combo 750ml",
-    "RATE": 161.52,
-    "UNIT": "st",
-    "GST": 9
-  },
-  {
-    "NAME": "Vanilla Gold 750ml",
-    "RATE": 96.35,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Vanilla Royale 2 Lit",
-    "RATE": 139.48,
-    "UNIT": "pcs",
-    "GST": 9
-  },
-  {
-    "NAME": "Vanilla/strawberry 65 Ml Cup",
-    "RATE": 120.88,
-    "UNIT": "bx",
-    "GST": 9
-  },
-  {
-    "NAME": "Y",
-    "RATE": 204.47,
-    "UNIT": "pcs",
-    "GST": 0
-  }
-]
+{
+  "items": [
+    {
+      "name": "4 Cheese Pizza",
+      "rate": 0,
+      "unit": "pcs",
+      "gst": 18
+    },
+    {
+      "name": "Asli Aam 80mL",
+      "rate": 251.67,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Brick Alphonso Marvel 2L",
+      "rate": 0,
+      "unit": "pcs",
+      "gst": 18
+    },
+    {
+      "name": "Brick American Nuts 750mL",
+      "rate": 0,
+      "unit": "pcs",
+      "gst": 18
+    },
+    {
+      "name": "Brick Black Currant 750mL",
+      "rate": 94.37,
+      "unit": "pcs",
+      "gst": 18
+    },
+    {
+      "name": "Brick ButterScotch 1.25L",
+      "rate": 132.12,
+      "unit": "pcs",
+      "gst": 18
+    },
+    {
+      "name": "Brick ButterScotch Bliss 2L",
+      "rate": 0,
+      "unit": "pcs",
+      "gst": 18
+    },
+    {
+      "name": "Brick Chocolate 2L",
+      "rate": 0,
+      "unit": "pcs",
+      "gst": 18
+    },
+    {
+      "name": "Brick Combo Afghan Dry Fruit 750mL",
+      "rate": 212.51,
+      "unit": "st of 2 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Brick Combo Alphonso Mango 750mL",
+      "rate": 157.29,
+      "unit": "st of 2 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Brick Combo ButterScotch Bliss 750mL",
+      "rate": 0,
+      "unit": "st of 2 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Brick Combo Choco Chips  750mL",
+      "rate": 182.45,
+      "unit": "st of 2 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Brick Combo Chocolate 750mL",
+      "rate": 163.58,
+      "unit": "st of 2 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Brick Combo Rajbhog 750mL",
+      "rate": 239.07,
+      "unit": "st of 2 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Brick Combo Shahi Mewa Khazana 750mL",
+      "rate": 0,
+      "unit": "st",
+      "gst": 18
+    },
+    {
+      "name": "Brick Combo Strawberry 750mL",
+      "rate": 151,
+      "unit": "st of 2 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Brick Combo Vanilla Royale 750mL",
+      "rate": 144.71,
+      "unit": "st of 2 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Brick Cookies 'N' Cream 750mL",
+      "rate": 84.94,
+      "unit": "pcs",
+      "gst": 18
+    },
+    {
+      "name": "Brick Creamy Almond 750mL",
+      "rate": 100.66,
+      "unit": "pcs",
+      "gst": 18
+    },
+    {
+      "name": "Brick Fuit 'N' Fantasy 2L",
+      "rate": 0,
+      "unit": "pc",
+      "gst": 18
+    },
+    {
+      "name": "Brick Golden Pearl 2L",
+      "rate": 0,
+      "unit": "pc",
+      "gst": 18
+    },
+    {
+      "name": "Brick Green Pista 750mL",
+      "rate": 0,
+      "unit": "pc",
+      "gst": 18
+    },
+    {
+      "name": "Brick Kaju Anjir 750mL",
+      "rate": 0,
+      "unit": "pc",
+      "gst": 18
+    },
+    {
+      "name": "Brick Kaju Draksh 750mL",
+      "rate": 0,
+      "unit": "pcs",
+      "gst": 18
+    },
+    {
+      "name": "Brick Kaju Rabdi Kulfi 750mL",
+      "rate": 116.39,
+      "unit": "pcs",
+      "gst": 18
+    },
+    {
+      "name": "Brick Kesar Pista Royale 750mL",
+      "rate": 0,
+      "unit": "pcs",
+      "gst": 18
+    },
+    {
+      "name": "Brick Refreshing Strawberry 750mL",
+      "rate": 0,
+      "unit": "pc",
+      "gst": 18
+    },
+    {
+      "name": "Brick Shahi Anjir 750mL",
+      "rate": 100.66,
+      "unit": "pcs",
+      "gst": 18
+    },
+    {
+      "name": "Brick Shalimar 750mL",
+      "rate": 100.66,
+      "unit": "pcs",
+      "gst": 18
+    },
+    {
+      "name": "Brick SSCB 750mL",
+      "rate": 110.1,
+      "unit": "pcs",
+      "gst": 18
+    },
+    {
+      "name": "Brick Tutti Frutti 750mL",
+      "rate": 0,
+      "unit": "pc",
+      "gst": 18
+    },
+    {
+      "name": "Brick Two-In-One 2L",
+      "rate": 185.59,
+      "unit": "pcs",
+      "gst": 18
+    },
+    {
+      "name": "Brick Vanilla 1.25L",
+      "rate": 116.39,
+      "unit": "pcs",
+      "gst": 18
+    },
+    {
+      "name": "Brick Vanilla Royale 2L",
+      "rate": 125.2,
+      "unit": "pcs",
+      "gst": 18
+    },
+    {
+      "name": "Candy Ice Lickz Orange 60mL",
+      "rate": 71.27,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Chocobar 30mL",
+      "rate": 0,
+      "unit": "bx of 20 pc",
+      "gst": 18
+    },
+    {
+      "name": "Chocobar 60mL",
+      "rate": 0,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Choco Pop 18mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Coffee-Bar 60mL",
+      "rate": 251.66,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Creme Rich Almond Fudge 125mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Creme Rich Caramel 125mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Cup Afghan Dry Fruit 100mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Cup Alphonso Mango 100mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Cup American Nuts 100mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Cup ButterScotch Bliss 100mL",
+      "rate": 201.32,
+      "unit": "bx of 16 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Cup Kaju Draksh 100mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Cup Vanilla Royale 100mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Cup (Van/Straw) 55mL",
+      "rate": 104.54,
+      "unit": "bx of 16 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Dark Chocolate Chocobar 60mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Dark Chocolate Frostik 60mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Diced Cheese Blend",
+      "rate": 0,
+      "unit": "pcs",
+      "gst": 18
+    },
+    {
+      "name": "Duetz Khatta Meetha 60mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Duetz Mango 60mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Duetz Raspberry 60mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Epic Choco Almond 80mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Epic Choco Truffle 80mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Epic Strawberry Twist 80mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Epic Sweetheart 60mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "French Fries",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Froot Lickz Mango 60mL",
+      "rate": 104.64,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Froot Lickz Orange 60mL",
+      "rate": 104.64,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Frostik 70mL",
+      "rate": 440.41,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Fundoo Chakri 60mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Fundoo Curly 60mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Fundoo Mango Dolly 60mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Fundoo Super 60mL",
+      "rate": 188.75,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Gallon Kesar Pista 5L",
+      "rate": 0,
+      "unit": "pc",
+      "gst": 18
+    },
+    {
+      "name": "Gallon Strawberry 4L",
+      "rate": 254.24,
+      "unit": "pcs",
+      "gst": 18
+    },
+    {
+      "name": "Gallon Tutti Fruity 5L",
+      "rate": 0,
+      "unit": "pc",
+      "gst": 18
+    },
+    {
+      "name": "Gallon Vanilla 4L",
+      "rate": 245.76,
+      "unit": "pcs",
+      "gst": 18
+    },
+    {
+      "name": "Gold Brick ButterScotch 750mL",
+      "rate": 0,
+      "unit": "pcs",
+      "gst": 18
+    },
+    {
+      "name": "Gold Casatta 150mL",
+      "rate": 0,
+      "unit": "bx of 12 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Gold Epic Almond 80mL",
+      "rate": 303.98,
+      "unit": "bx of 10 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Gold Frostik 70mL",
+      "rate": 470.9,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Gold JumboCup ButterScotch 125mL",
+      "rate": 167.43,
+      "unit": "bx of 8 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Gold JumboCup Choco Chip 125mL",
+      "rate": 209.29,
+      "unit": "bx of 8 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Gold JumboCup Fruit 'N' Fantasy 125mL",
+      "rate": 209.29,
+      "unit": "bx of 8 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Gold Kulfi Punjabi 60mL",
+      "rate": 313.93,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Gold Mango Duetz 60mL",
+      "rate": 209.29,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Gold Pro Chocobar 60mL",
+      "rate": 263.1,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Gold Tricone ButterScotch 120mL",
+      "rate": 418.58,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Gold Tricone Chocolate 120mL",
+      "rate": 470.9,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Gold Tub Alphonso King 1L",
+      "rate": 0,
+      "unit": "tb",
+      "gst": 18
+    },
+    {
+      "name": "Gold Tub ButterScotch 1L",
+      "rate": 0,
+      "unit": "tb",
+      "gst": 18
+    },
+    {
+      "name": "Gold Tub Cookies 'N' Creame",
+      "rate": 0,
+      "unit": "tb",
+      "gst": 18
+    },
+    {
+      "name": "Gold Tub Kaju Draksh 1L",
+      "rate": 156.97,
+      "unit": "tb",
+      "gst": 18
+    },
+    {
+      "name": "Gold Tub Tiramisu 1L",
+      "rate": 183.13,
+      "unit": "tb",
+      "gst": 18
+    },
+    {
+      "name": "Gold Tub Vanilla 1L",
+      "rate": 120.22,
+      "unit": "tb",
+      "gst": 18
+    },
+    {
+      "name": "JumboCup American Nuts 125mL",
+      "rate": 0,
+      "unit": "bx of 8 pcs",
+      "gst": 18
+    },
+    {
+      "name": "JumboCup ButterScotch Bliss 125mL",
+      "rate": 176.16,
+      "unit": "bx of 8 pcs",
+      "gst": 18
+    },
+    {
+      "name": "JumboCup Chocolate Brownie 125mL",
+      "rate": 0,
+      "unit": "bx of 8 pcs",
+      "gst": 18
+    },
+    {
+      "name": "JumboCup Coffee 125mL",
+      "rate": 201.33,
+      "unit": "bx of 8 pcs",
+      "gst": 18
+    },
+    {
+      "name": "JumboCup Falooda 125mL",
+      "rate": 201.32,
+      "unit": "bx of 8 pcs",
+      "gst": 18
+    },
+    {
+      "name": "JumboCup Fruit 'N' Nut Fantasy 125mL",
+      "rate": 176.16,
+      "unit": "bx of 8 pcs",
+      "gst": 18
+    },
+    {
+      "name": "JumboCup Ice Malai 125mL",
+      "rate": 0,
+      "unit": "bx of 8 pcs",
+      "gst": 18
+    },
+    {
+      "name": "JumboCup King Alphonso 125mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "JumboCup Pan Nawabi 125mL",
+      "rate": 176.16,
+      "unit": "bx of 8 pcs",
+      "gst": 18
+    },
+    {
+      "name": "JumboCup Rajbhog 125mL",
+      "rate": 0,
+      "unit": "bx of 8 pcs",
+      "gst": 18
+    },
+    {
+      "name": "JumboCup Shahi Kulfi 125mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "JumboCup Shalimar 125mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "JumboCup Sky Scooper Cookie Overload 125mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "JumboCup Sky Scooper Dreamy Almond 125mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "JumboCup Tender Coconut 125mL",
+      "rate": 201.33,
+      "unit": "bx of 8 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Kulfi Aamras 60mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Kulfi Badshahi 60mL",
+      "rate": 314.58,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Kulfi Bombay Dry-Fruit 60mL",
+      "rate": 314.58,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Kulfi Kaju Malai 60mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Kulfi Kashmiri 60mL",
+      "rate": 251.66,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Kulfi Khoa 60mL",
+      "rate": 0,
+      "unit": "bx of 20 pc",
+      "gst": 18
+    },
+    {
+      "name": "Kulfi Mast Khoa 65mL",
+      "rate": 0,
+      "unit": "pkt of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Kulfi Mast Kulfi Kesar Kamaal 40mL",
+      "rate": 129.38,
+      "unit": "pkt of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Kulfi Mast Pista Dhamaal 40mL",
+      "rate": 129.83,
+      "unit": "pkt of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Kulfi Mawa Malai 60mL(MRP 100)",
+      "rate": 52.32,
+      "unit": "bx of 4 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Kulfi Pista Malai 60mL",
+      "rate": 377.49,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Kulfi Punjabi 60mL",
+      "rate": 314.57,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Kulfi Rabdi 45mL",
+      "rate": 142.54,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Kulfi Rajasthani 60mL",
+      "rate": 251.66,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Kulfi Rajbhog 60mL",
+      "rate": 377.49,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Kulfi Rajwadi 40mL",
+      "rate": 142.54,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Kulfi Rosogulla 60mL",
+      "rate": 251.66,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Kulfi Shahi Badam 60mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Mozzarella Diced 12x1Kg",
+      "rate": 0,
+      "unit": "bx of 12 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Rasmalai 12x8x100g",
+      "rate": 0,
+      "unit": "bx of 8 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Rasmalai 24x500g",
+      "rate": 0,
+      "unit": "pcs",
+      "gst": 18
+    },
+    {
+      "name": "Sugarfree Punjabi Kulfi 60mL",
+      "rate": 0,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Sugarfree Shahi Anjeer 125mL",
+      "rate": 0,
+      "unit": "bx of 8 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Sugarfree Vanilla 125mL",
+      "rate": 0,
+      "unit": "bx of 8 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Sundae Cup Chocolate 125mL",
+      "rate": 176.16,
+      "unit": "bx of 8 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Sundae Cup Gudbud 125mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Sundae Cup Khatta Meetha Mango 125mL",
+      "rate": 196.28,
+      "unit": "bx of 8 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Sundae Cup Strawberry & Cheese  125mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Sundae Tub Cheese & Strawberry 1L",
+      "rate": 0,
+      "unit": "bx of 3 tubss",
+      "gst": 18
+    },
+    {
+      "name": "Sundae Tub Choco Caramel 1L",
+      "rate": 0,
+      "unit": "bx of 3 tubss",
+      "gst": 18
+    },
+    {
+      "name": "Sundae Tub Chocolate Magic 1L",
+      "rate": 135.27,
+      "unit": "tb",
+      "gst": 18
+    },
+    {
+      "name": "Sundae Tub Falooda 1L",
+      "rate": 0,
+      "unit": "tb",
+      "gst": 18
+    },
+    {
+      "name": "Sundae Tub Strawberry & Cheese 1L",
+      "rate": 0,
+      "unit": "bx of 3 tubss",
+      "gst": 18
+    },
+    {
+      "name": "Sundae Tub Strawberry Magic 1L",
+      "rate": 135.27,
+      "unit": "tb",
+      "gst": 18
+    },
+    {
+      "name": "Sunday Tub Gold Caramel Chocolate 1L",
+      "rate": 0,
+      "unit": "tb",
+      "gst": 18
+    },
+    {
+      "name": "Tricone Belgian Chocolate 120mL",
+      "rate": 629.15,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Tricone Bitter Chocolate 100mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Tricone Black Currant 120mL",
+      "rate": 377.49,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Tricone ButterScotch 100mL",
+      "rate": 377.49,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Tricone ButterScotch 120mL",
+      "rate": 440.41,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Tricone Choco-Brownie 150mL",
+      "rate": 346.03,
+      "unit": "bx of 10 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Tricone Choco Crunch 120mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Tricone Chocolate 100mL",
+      "rate": 0,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Tricone Chocolate 120mL",
+      "rate": 440.41,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Tricone Choco-Vanilla 40mL",
+      "rate": 0,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Tricone Cookie Crunch Delight 120mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Tricone Cookies 'N' Cream 120mL",
+      "rate": 0,
+      "unit": "bx of 20 pc",
+      "gst": 18
+    },
+    {
+      "name": "Tricone Dark Chocolate 120mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Tricone Kulfi 70mL",
+      "rate": 0,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Tricone Mango 70mL",
+      "rate": 251.66,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Tricone Pista Badam 120mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Tricone Two-In-One 120mL",
+      "rate": 0,
+      "unit": "bx",
+      "gst": 18
+    },
+    {
+      "name": "Tricone Vanilla 120mL",
+      "rate": 0,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Tricone Vanilla 70mL",
+      "rate": 0,
+      "unit": "bx of 20 pcs",
+      "gst": 18
+    },
+    {
+      "name": "Tub Berry Dazzle 1L",
+      "rate": 188.75,
+      "unit": "tb",
+      "gst": 18
+    },
+    {
+      "name": "Tub ButterScotch 1L",
+      "rate": 0,
+      "unit": "tb",
+      "gst": 18
+    },
+    {
+      "name": "Tub ButterScotch Bliss 500mL",
+      "rate": 0,
+      "unit": "bx of 3 tubss",
+      "gst": 18
+    },
+    {
+      "name": "Tub Choco Chips 1L",
+      "rate": 0,
+      "unit": "tb",
+      "gst": 18
+    },
+    {
+      "name": "Tub Choco Chips 500mL",
+      "rate": 0,
+      "unit": "bx of 3 tubss",
+      "gst": 18
+    },
+    {
+      "name": "Tub Choco Crackle 1L",
+      "rate": 0,
+      "unit": "tb",
+      "gst": 18
+    },
+    {
+      "name": "Tub Chocolate Brownie 1L",
+      "rate": 0,
+      "unit": "tb",
+      "gst": 18
+    },
+    {
+      "name": "Tub Chocolate Brownie 500mL",
+      "rate": 0,
+      "unit": "bx of 3 tubss",
+      "gst": 18
+    },
+    {
+      "name": "Tub Choco Maltino 1L",
+      "rate": 188.75,
+      "unit": "tb",
+      "gst": 18
+    },
+    {
+      "name": "Tub Falooda 1L",
+      "rate": 0,
+      "unit": "bx of 3 tubss",
+      "gst": 18
+    },
+    {
+      "name": "Tub Fruit 'N' Fantasy 1L",
+      "rate": 144.71,
+      "unit": "tb",
+      "gst": 18
+    },
+    {
+      "name": "Tub Fruit 'N' Fantasy 500mL",
+      "rate": 0,
+      "unit": "bx of 3 tubss",
+      "gst": 18
+    },
+    {
+      "name": "Tub Ice Malai Mango 500mL",
+      "rate": 94.17,
+      "unit": "tb",
+      "gst": 18
+    },
+    {
+      "name": "Tub King Alphonso 500mL",
+      "rate": 0,
+      "unit": "bx of 3 tubss",
+      "gst": 18
+    },
+    {
+      "name": "Tub Moroccan Dry Fruit 1L",
+      "rate": 188.74,
+      "unit": "tb",
+      "gst": 18
+    },
+    {
+      "name": "Tub Pan Nawabi 1L",
+      "rate": 135.27,
+      "unit": "tb",
+      "gst": 18
+    },
+    {
+      "name": "Tub Rajbhog 1L",
+      "rate": 188.74,
+      "unit": "tb",
+      "gst": 18
+    },
+    {
+      "name": "Tub Roasted Almond 1L",
+      "rate": 188.74,
+      "unit": "tb",
+      "gst": 18
+    },
+    {
+      "name": "Tub Shahi Kulfi 1L",
+      "rate": 188.75,
+      "unit": "tb",
+      "gst": 18
+    },
+    {
+      "name": "Tub Strawberry 500mL",
+      "rate": 0,
+      "unit": "bx of 3 tubss",
+      "gst": 18
+    },
+    {
+      "name": "Tub Tender Coconut 1L",
+      "rate": 173.01,
+      "unit": "tb",
+      "gst": 18
+    },
+    {
+      "name": "Tub Vanilla Magic 1L",
+      "rate": 0,
+      "unit": "bx of 3 tubss",
+      "gst": 18
+    },
+    {
+      "name": "Tub Vanilla Royale 500mL",
+      "rate": 0,
+      "unit": "bx of 3 tubss",
+      "gst": 18
+    }
+  ],
+  "total": 180,
+  "lastUpdated": "2025-07-18T01:39:56.960Z"
+}

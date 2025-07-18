@@ -1,62 +1,531 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <title>Place Order</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Place Order - Krrish Enterprises</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #007bff, #0056b3);
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    .form-container {
+      padding: 40px;
+    }
+
+    .form-group {
+      margin-bottom: 25px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
+      color: #333;
+      font-size: 1rem;
+    }
+
+    input,
+    select {
+      width: 100%;
+      padding: 15px;
+      border: 2px solid #e1e5e9;
+      border-radius: 10px;
+      font-size: 16px;
+      transition: all 0.3s ease;
+      background: white;
+    }
+
+    input:focus,
+    select:focus {
+      outline: none;
+      border-color: #007bff;
+      box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+    }
+
+    .item-row {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr auto;
+      gap: 15px;
+      align-items: end;
+      padding: 20px;
+      background: #f8f9fa;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #e9ecef;
+    }
+
+    .item-row:hover {
+      background: #e9ecef;
+    }
+
+    .remove-btn {
+      background: #dc3545;
+      color: white;
+      border: none;
+      padding: 12px 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background 0.3s ease;
+    }
+
+    .remove-btn:hover {
+      background: #c82333;
+    }
+
+    .add-item-btn {
+      background: #28a745;
+      color: white;
+      border: none;
+      padding: 15px 25px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 30px;
+      transition: all 0.3s ease;
+    }
+
+    .add-item-btn:hover {
+      background: #218838;
+      transform: translateY(-2px);
+    }
+
+    .submit-btn {
+      width: 100%;
+      background: linear-gradient(135deg, #007bff, #0056b3);
+      color: white;
+      border: none;
+      padding: 18px;
+      border-radius: 10px;
+      font-size: 18px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .submit-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(0, 123, 255, 0.3);
+    }
+
+    .submit-btn:disabled {
+      background: #6c757d;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .total-section {
+      background: #f8f9fa;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px 0;
+      border: 2px solid #e9ecef;
+    }
+
+    .total-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    .total-row.final {
+      font-size: 20px;
+      font-weight: 700;
+      color: #007bff;
+      border-top: 2px solid #dee2e6;
+      padding-top: 10px;
+      margin-top: 10px;
+    }
+
+    .message {
+      padding: 15px;
+      border-radius: 10px;
+      margin: 20px 0;
+      font-weight: 500;
+    }
+
+    .success {
+      background: #d4edda;
+      color: #155724;
+      border: 1px solid #c3e6cb;
+    }
+
+    .error {
+      background: #f8d7da;
+      color: #721c24;
+      border: 1px solid #f5c6cb;
+    }
+
+    .loading {
+      text-align: center;
+      color: #6c757d;
+      font-style: italic;
+    }
+
+    .item-info {
+      font-size: 14px;
+      color: #007bff;
+      margin-top: 5px;
+      font-weight: 500;
+    }
+
+    @media (max-width: 768px) {
+      .item-row {
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+
+      .header h1 {
+        font-size: 2rem;
+      }
+
+      .form-container {
+        padding: 20px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-  <h2>🛒 Place Your Order</h2>
+  <div class="container">
+    <div class="header">
+      <h1>🛒 Place Your Order</h1>
+      <p>Select items and quantities for your order</p>
+    </div>
 
-  <form id="orderForm">
-    <label>Phone:
-      <input type="text" id="phone" required>
-    </label>
+    <div class="form-container">
+      <div id="message" class="message" style="display: none;"></div>
 
-    <label>Item:
-      <select id="itemSelect"></select>
-    </label>
+      <form id="orderForm">
+        <div class="form-group">
+          <label for="phone">📱 Phone Number:</label>
+          <input type="tel" id="phone" required placeholder="Enter your phone number">
+        </div>
 
-    <label>Quantity:
-      <input type="number" id="quantity" value="1" min="1">
-    </label>
+        <div class="form-group">
+          <label for="customerName">👤 Customer Name:</label>
+          <input type="text" id="customerName" required placeholder="Enter customer name">
+        </div>
 
-    <button type="submit">Submit Order</button>
-  </form>
+        <div class="form-group">
+          <label>📦 Order Items:</label>
+          <button type="button" class="add-item-btn" onclick="addItemRow()">
+            ➕ Add Item
+          </button>
+          <div id="itemsContainer">
+            <!-- Item rows will be added here -->
+          </div>
+        </div>
 
-  <script>
-    // Fetch items for dropdown
-    fetch('http://localhost:3000/api/items')
-      .then(res => res.json())
-      .then(items => {
-        const itemSelect = document.getElementById('itemSelect');
-        items.forEach(item => {
-          const opt = document.createElement('option');
-          opt.value = item.id;
-          opt.text = `${item.name} — ₹${item.rate}`;
-          itemSelect.appendChild(opt);
-        });
+        <div class="total-section">
+          <div class="total-row">
+            <span>Subtotal:</span>
+            <span id="subtotal">₹0.00</span>
+          </div>
+          <div class="total-row">
+            <span>GST (18%):</span>
+            <span id="gst">₹0.00</span>
+          </div>
+          <div class="total-row final">
+            <span>Total:</span>
+            <span id="total">₹0.00</span>
+          </div>
+        </div>
+
+        <button type="submit" class="submit-btn" id="submitBtn">
+          📤 Submit Order
+        </button>
+      </form>
+    </div>
+  </div>
+
+      <script>
+        let items = [];
+        let itemCounter = 0;
+        let customerInfo = null;
+
+        // Get URL parameters
+        function getUrlParameter(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        // Load customer info from URL or API
+        async function loadCustomerInfo() {
+            const phone = getUrlParameter('phone');
+            const customerName = getUrlParameter('customer');
+            
+            if (phone) {
+                document.getElementById('phone').value = phone;
+                document.getElementById('phone').readOnly = true;
+                
+                if (customerName) {
+                    document.getElementById('customerName').value = decodeURIComponent(customerName);
+                    document.getElementById('customerName').readOnly = true;
+                } else {
+                    // Try to get customer info from API
+                    try {
+                        const response = await fetch(`/api/customers/phone/${phone}`);
+                        if (response.ok) {
+                            const customer = await response.json();
+                            document.getElementById('customerName').value = customer.name;
+                            document.getElementById('customerName').readOnly = true;
+                            customerInfo = customer;
+                        }
+                    } catch (error) {
+                        console.log('Customer not found in database');
+                    }
+                }
+            }
+        }
+
+        // Show/hide messages
+        function showMessage(type, message) {
+            const element = document.getElementById('message');
+            element.textContent = message;
+            element.className = `message ${type}`;
+            element.style.display = 'block';
+            
+            setTimeout(() => {
+                element.style.display = 'none';
+            }, 5000);
+        }
+
+    // Load items from API
+    async function loadItems() {
+      try {
+        const response = await fetch('/api/items');
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        items = await response.json();
+        console.log(`✅ Loaded ${items.length} items`);
+
+        // Add first item row
+        addItemRow();
+      } catch (error) {
+        console.error('❌ Error loading items:', error);
+        showMessage('error', `Failed to load items: ${error.message}`);
+      }
+    }
+
+    // Add new item row
+    function addItemRow() {
+      const container = document.getElementById('itemsContainer');
+      const row = document.createElement('div');
+      row.className = 'item-row';
+      row.id = `item-row-${itemCounter}`;
+
+      row.innerHTML = `
+                <div>
+                    <label>Item:</label>
+                    <select class="item-select" onchange="updateItemInfo(${itemCounter})" required>
+                        <option value="">Select an item...</option>
+                        ${items.map(item => `
+                            <option value="${item.id}" data-rate="${item.rate}" data-unit="${item.unit}">
+                                ${item.name}
+                            </option>
+                        `).join('')}
+                    </select>
+                    <div class="item-info" id="item-info-${itemCounter}"></div>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <input type="number" class="quantity-input" value="1" min="1" onchange="updateTotal()" required>
+                </div>
+                <div>
+                    <label>Price:</label>
+                    <input type="text" class="price-display" readonly value="₹0.00">
+                </div>
+                <div>
+                    <button type="button" class="remove-btn" onclick="removeItemRow(${itemCounter})" ${itemCounter === 0 ? 'style="display:none"' : ''}>
+                        ❌
+                    </button>
+                </div>
+            `;
+
+      container.appendChild(row);
+      itemCounter++;
+      updateTotal();
+    }
+
+    // Remove item row
+    function removeItemRow(index) {
+      const row = document.getElementById(`item-row-${index}`);
+      if (row) {
+        row.remove();
+        updateTotal();
+      }
+    }
+
+    // Update item info when selection changes
+    function updateItemInfo(rowIndex) {
+      const row = document.getElementById(`item-row-${rowIndex}`);
+      const select = row.querySelector('.item-select');
+      const info = document.getElementById(`item-info-${rowIndex}`);
+      const priceDisplay = row.querySelector('.price-display');
+
+      if (select.value) {
+        const selectedItem = items.find(item => item.id == select.value);
+        if (selectedItem) {
+          info.textContent = `💰 ₹${selectedItem.rate} per ${selectedItem.unit}`;
+          const quantity = row.querySelector('.quantity-input').value || 1;
+          const total = selectedItem.rate * quantity;
+          priceDisplay.value = `₹${total.toFixed(2)}`;
+        }
+      } else {
+        info.textContent = '';
+        priceDisplay.value = '₹0.00';
+      }
+      updateTotal();
+    }
+
+    // Update total calculation
+    function updateTotal() {
+      let subtotal = 0;
+
+      document.querySelectorAll('.item-row').forEach(row => {
+        const select = row.querySelector('.item-select');
+        const quantity = row.querySelector('.quantity-input');
+
+        if (select.value && quantity.value) {
+          const selectedItem = items.find(item => item.id == select.value);
+          if (selectedItem) {
+            subtotal += selectedItem.rate * quantity.value;
+          }
+        }
       });
+
+      const gst = subtotal * 0.18;
+      const total = subtotal + gst;
+
+      document.getElementById('subtotal').textContent = `₹${subtotal.toFixed(2)}`;
+      document.getElementById('gst').textContent = `₹${gst.toFixed(2)}`;
+      document.getElementById('total').textContent = `₹${total.toFixed(2)}`;
+    }
+
+    // Handle quantity changes
+    document.addEventListener('change', function (e) {
+      if (e.target.classList.contains('quantity-input')) {
+        const row = e.target.closest('.item-row');
+        const select = row.querySelector('.item-select');
+        const priceDisplay = row.querySelector('.price-display');
+
+        if (select.value) {
+          const selectedItem = items.find(item => item.id == select.value);
+          if (selectedItem) {
+            const total = selectedItem.rate * e.target.value;
+            priceDisplay.value = `₹${total.toFixed(2)}`;
+          }
+        }
+        updateTotal();
+      }
+    });
 
     // Submit order
     document.getElementById('orderForm').addEventListener('submit', async (e) => {
       e.preventDefault();
 
-      const phone = document.getElementById('phone').value.trim();
-      const itemId = parseInt(document.getElementById('itemSelect').value);
-      const quantity = parseInt(document.getElementById('quantity').value);
+      const submitBtn = document.getElementById('submitBtn');
+      submitBtn.disabled = true;
+      submitBtn.textContent = '📤 Submitting...';
 
-      const res = await fetch('http://localhost:3000/api/orders', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          phone,
-          items: [{ itemId, quantity }]
-        })
-      });
+      try {
+        const phone = document.getElementById('phone').value.trim();
+        const customerName = document.getElementById('customerName').value.trim();
 
-      const result = await res.json();
-      alert(result.success ? '✅ Order placed!' : `❌ Error: ${result.error || 'Unknown'}`);
+        // Collect order items
+        const orderItems = [];
+        document.querySelectorAll('.item-row').forEach(row => {
+          const select = row.querySelector('.item-select');
+          const quantity = row.querySelector('.quantity-input');
+
+          if (select.value && quantity.value) {
+            orderItems.push({
+              itemId: parseInt(select.value),
+              quantity: parseInt(quantity.value)
+            });
+          }
+        });
+
+        if (orderItems.length === 0) {
+          throw new Error('Please add at least one item to your order');
+        }
+
+        const response = await fetch('/api/orders', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            phone,
+            customerName,
+            items: orderItems
+          })
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+          showMessage('success', '✅ Order placed successfully!');
+          document.getElementById('orderForm').reset();
+          document.getElementById('itemsContainer').innerHTML = '';
+          itemCounter = 0;
+          addItemRow();
+          updateTotal();
+        } else {
+          throw new Error(result.error || 'Unknown error occurred');
+        }
+      } catch (error) {
+        console.error('❌ Order submission error:', error);
+        showMessage('error', `Failed to place order: ${error.message}`);
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = '📤 Submit Order';
+      }
     });
+
+            // Load items and customer info when page loads
+        loadItems();
+        loadCustomerInfo();
   </script>
 </body>
+
 </html>

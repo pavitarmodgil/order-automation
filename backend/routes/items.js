@@ -1,13 +1,44 @@
 const express = require('express');
-const db      = require('../utils/db');   // <<-- require our shared connection
-const router  = express.Router();
+const itemService = require('../services/itemService');
+const router = express.Router();
 
-// e.g. GET /api/items
+// GET /api/items - Get all items
 router.get('/', (req, res) => {
-  db.all('SELECT * FROM Items', (err, rows) => {
-    if (err) return res.status(500).json({ error: err.message });
-    res.json(rows);
-  });
+  try {
+    const items = itemService.getAllItems();
+    res.json(items.items);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// GET /api/items/search?q=query - Search items
+router.get('/search', (req, res) => {
+  try {
+    const query = req.query.q;
+    if (!query) {
+      return res.status(400).json({ error: 'Search query is required' });
+    }
+    
+    const items = itemService.searchItems(query);
+    res.json(items);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// GET /api/items/:id - Get item by ID
+router.get('/:id', (req, res) => {
+  try {
+    const item = itemService.getItemById(parseInt(req.params.id));
+    if (item) {
+      res.json(item);
+    } else {
+      res.status(404).json({ error: 'Item not found' });
+    }
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
 });
 
 module.exports = router;
